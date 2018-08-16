@@ -6,14 +6,14 @@ https://www.tutorialspoint.com/design_pattern/index.htm
 
 # Decorator Pattern
 
-##Definition
+## Definition
 Decorator pattern allows a user to add new functionality to an existing object without altering its structure.
 
 This type of design pattern comes under structural pattern as this pattern acts a wrapper to existing class.
 
 This pattern creates a decorator class which wraps the original class and provides additional functionality keeping class methods signature intact.
 
-##Implementation
+## Implementation
 
 We are demonstrating the use of decorator pattern via following example in which we will decorator a shape with some color without alter shape class.
 
@@ -27,14 +27,14 @@ DecoratorPatterDemo, our demo class will use RedShapeDecorator to decorate Shape
 
 # 装饰者模式
 
-##定义
+## 定义
 装饰者模式允许用户在不改变其结构的前提下向现有对象添加新功能。
  
 这类设计模式属于结构模式，因为此模式是现有类的包装器。
 
 此模式创建一个装饰器类，它包装原始类并提供其他功能，使类方法签名保持不变。
 
-##实现
+## 实现
 
 我们通过以下示例来展示装饰器模式的用法，其中我们将给形状类装饰上颜色而不改变形状类。
 
