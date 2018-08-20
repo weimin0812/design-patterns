@@ -46,3 +46,23 @@ ShapeDecorator的具体实现类RedShapeDecorator。
 
 DecoratorPatterDemo我们将会用RedShapeDecorator去装饰Shape对象。
  
+ 
+# Factory Pattern
+
+## Definition
+
+Factory pattern is one of the most used design patterns in Java.
+
+This type of design pattren comes under creationsl pattern as this pattern provides one of the best ways to create an object.
+
+In Factory Pattern, we create object without exposing the creation logic to the client and refer to newly created object using a common interface.
+
+## Implementation
+
+We are going to create a Shape interface and concrete classes implementing the Shape interface.
+
+A factory class ShapeFactory is defined as a next step.
+
+FactoryPatternDemo, our demo class will use ShapeFactory to get a Shape object.
+
+It will pass information (CIRCLE / RECTANGLE / SQUARE) to ShapeFactory to get the type of object it needs.

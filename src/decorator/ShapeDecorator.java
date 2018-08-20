@@ -5,7 +5,7 @@ package decorator;
  * @date 2018/8/16
  * @project design-patterns
  */
-public class ShapeDecorator implements Shape{
+public abstract class ShapeDecorator implements Shape{
     Shape decoratedShape;
 
     public ShapeDecorator(Shape decoratedShape) {
