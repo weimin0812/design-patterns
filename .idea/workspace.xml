@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b2cb036-b288-4a10-bf21-80805799af33" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/adapter/AdapterPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adapter/AdvanceMediaPalyer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adapter/AudioPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adapter/MediaAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adapter/MediaPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adapter/Mp4Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adapter/VlcPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/filter/AndCriteria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/filter/Criteria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/filter/CriteriaFemale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/filter/CriteriaMale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/filter/CriteriaPattrenDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/filter/CriteriaSingle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/filter/OrCriteria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/filter/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,74 +21,97 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="AdvanceMediaPalyer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/adapter/AdvanceMediaPalyer.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Person.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/filter/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MediaPlayer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/adapter/MediaPlayer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Mp4Player.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/adapter/Mp4Player.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="401">
+              <caret line="53" column="93" selection-start-line="53" selection-start-column="93" selection-end-line="53" selection-end-column="93" />
               <folding>
-                <element signature="e#268#269#0" expanded="true" />
-                <element signature="e#332#333#0" expanded="true" />
+                <element signature="e#406#407#0" expanded="true" />
+                <element signature="e#433#434#0" expanded="true" />
+                <element signature="e#466#467#0" expanded="true" />
+                <element signature="e#495#496#0" expanded="true" />
+                <element signature="e#535#536#0" expanded="true" />
+                <element signature="e#571#572#0" expanded="true" />
+                <element signature="e#1540#1541#0" expanded="true" />
+                <element signature="e#1578#1579#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VlcPlayer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/adapter/VlcPlayer.java">
+      <file leaf-file-name="CriteriaPattrenDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/filter/CriteriaPattrenDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="401">
+              <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
               <folding>
-                <element signature="e#203#204#0" expanded="true" />
-                <element signature="e#267#268#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MediaAdapter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/adapter/MediaAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AudioPlayer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/adapter/AudioPlayer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdapterPatternDemo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/adapter/AdapterPatternDemo.java">
+      <file leaf-file-name="Criteria.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/filter/Criteria.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CriteriaMale.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/filter/CriteriaMale.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CriteriaFemale.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/filter/CriteriaFemale.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CriteriaSingle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/filter/CriteriaSingle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndCriteria.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/filter/AndCriteria.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="64" selection-start-line="21" selection-start-column="64" selection-end-line="21" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrCriteria.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/filter/OrCriteria.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -108,16 +132,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/decorator/Shape.java" />
-        <option value="$PROJECT_DIR$/src/decorator/Rectangle.java" />
-        <option value="$PROJECT_DIR$/src/decorator/Circle.java" />
-        <option value="$PROJECT_DIR$/src/decorator/RedShapeDecorator.java" />
-        <option value="$PROJECT_DIR$/src/decorator/DecoratorPatternDemo.java" />
-        <option value="$PROJECT_DIR$/src/decorator/ShapeDecorator.java" />
-        <option value="$PROJECT_DIR$/src/decorator/io/Demo.java" />
-        <option value="$PROJECT_DIR$/src/factory/Shape.java" />
-        <option value="$PROJECT_DIR$/src/factory/Square.java" />
-        <option value="$PROJECT_DIR$/src/factory/Cicle.java" />
         <option value="$PROJECT_DIR$/src/factory/Circle.java" />
         <option value="$PROJECT_DIR$/src/factory/ShapeFactory.java" />
         <option value="$PROJECT_DIR$/src/factory/FactoryPAtternDemo.java" />
@@ -159,6 +173,16 @@
         <option value="$PROJECT_DIR$/src/adapter/MediaAdapter.java" />
         <option value="$PROJECT_DIR$/src/adapter/AudioPlayer.java" />
         <option value="$PROJECT_DIR$/src/adapter/AdapterPatternDemo.java" />
+        <option value="$PROJECT_DIR$/src/filter/People.java" />
+        <option value="$PROJECT_DIR$/src/filter/Criteria.java" />
+        <option value="$PROJECT_DIR$/src/filter/CriteriaMeal.java" />
+        <option value="$PROJECT_DIR$/src/filter/CriteriaMale.java" />
+        <option value="$PROJECT_DIR$/src/filter/CriteriaFemale.java" />
+        <option value="$PROJECT_DIR$/src/filter/CriteriaSingle.java" />
+        <option value="$PROJECT_DIR$/src/filter/AndCriteria.java" />
+        <option value="$PROJECT_DIR$/src/filter/OrCriteria.java" />
+        <option value="$PROJECT_DIR$/src/filter/CriteriaPattrenDemo.java" />
+        <option value="$PROJECT_DIR$/src/filter/Person.java" />
       </list>
     </option>
   </component>
@@ -169,8 +193,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="819" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -196,12 +221,18 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="adapter" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="design-patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design-patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -231,7 +262,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AdapterPatternDemo">
+  <component name="RunManager" selected="Application.CriteriaPattrenDemo">
     <configuration name="AbstractFactoryPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="abstractfactory.AbstractFactoryPatternDemo" />
       <module name="design-patterns" />
@@ -262,12 +293,12 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="FactoryPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="factory.FactoryPatternDemo" />
+    <configuration name="CriteriaPattrenDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="filter.CriteriaPattrenDemo" />
       <module name="design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="factory.*" />
+          <option name="PATTERN" value="filter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -298,19 +329,19 @@
       <method />
     </configuration>
     <list>
-      <item itemvalue="Application.FactoryPatternDemo" />
       <item itemvalue="Application.AbstractFactoryPatternDemo" />
       <item itemvalue="Application.SingletonPattrenDemo" />
       <item itemvalue="Application.BuilderPattrenDemo" />
       <item itemvalue="Application.AdapterPatternDemo" />
+      <item itemvalue="Application.CriteriaPattrenDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CriteriaPattrenDemo" />
         <item itemvalue="Application.AdapterPatternDemo" />
         <item itemvalue="Application.BuilderPattrenDemo" />
         <item itemvalue="Application.SingletonPattrenDemo" />
         <item itemvalue="Application.AbstractFactoryPatternDemo" />
-        <item itemvalue="Application.FactoryPatternDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -336,12 +367,13 @@
       <workItem from="1535023326932" duration="2594000" />
       <workItem from="1535469773789" duration="532000" />
       <workItem from="1535507635546" duration="126000" />
-      <workItem from="1535552234841" duration="1067000" />
+      <workItem from="1535552234841" duration="2717000" />
+      <workItem from="1535594713791" duration="604000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20349000" />
+    <option name="totallyTimeSpent" value="22603000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -357,24 +389,24 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32917705" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.1296758" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2693267" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24606581" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30329043" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.44389027" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.41396508" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.4875312" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.4875312" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -389,62 +421,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/chainofresponsibility/ErrorLogger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chainofresponsibility/AbstractLogger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/decorator/Shape.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/decorator/Rectangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/decorator/RedShapeDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/decorator/Circle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/decorator/DecoratorPatternDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/decorator/ShapeDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/decorator/io/Demo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -718,10 +694,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -729,10 +701,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="e#203#204#0" expanded="true" />
-            <element signature="e#267#268#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -743,17 +711,95 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/adapter/AudioPlayer.java">
+    <entry file="file://$PROJECT_DIR$/src/adapter/AdapterPatternDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        <state relative-caret-position="150">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/adapter/AdapterPatternDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/adapter/AudioPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/filter/AndCriteria.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="64" selection-start-line="21" selection-start-column="64" selection-end-line="21" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/filter/Criteria.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/filter/CriteriaFemale.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/filter/CriteriaMale.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/filter/CriteriaSingle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/filter/OrCriteria.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/filter/CriteriaPattrenDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/filter/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="53" column="93" selection-start-line="53" selection-start-column="93" selection-end-line="53" selection-end-column="93" />
+          <folding>
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+            <element signature="e#571#572#0" expanded="true" />
+            <element signature="e#1540#1541#0" expanded="true" />
+            <element signature="e#1578#1579#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
